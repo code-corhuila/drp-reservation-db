@@ -8,7 +8,7 @@ Model: `drp-docs` `06-data/models.md` (schema `reservation`, user `reservation_a
 
 | Folder | Content |
 |--------|---------|
-| `01_ddl/` | `reservations` (schema-qualified) |
+| `01_ddl/` | `reservations` + `outbox` (schema-qualified) |
 | `02_dml/` | no Corte 2 seed |
 | `03_dcl/` | grants for `reservation_app` (no DELETE; cancel is a state) |
 | `04_tcl/` | reserved |
